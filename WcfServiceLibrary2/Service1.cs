@@ -28,6 +28,7 @@ namespace WcfServiceLibrary2
 
         public int HesapCarp(int Sayi1, int Sayi2)
         {
+            Sayi1 = Sayi1 + 10;
             return Sayi1 * Sayi2;
         }
 
